@@ -23,8 +23,8 @@ https://github.com/shenwei356/seqkit/releases
 
 Python dependencies:
 
-`pip3 install pandas
-pip3 install biopython`
+`pip3 install pandas`
+`pip3 install biopython`
 
 # Usage
 
@@ -32,4 +32,5 @@ Download the database(https://drive.google.com/drive/folders/1RDWMOacKUAe29VoccG
 Rename the fastq sequence to "test.fastq"
 
 Run the following command:
+
 `bash automate.sh`
