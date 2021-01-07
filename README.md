@@ -5,8 +5,8 @@ Prerequisites:
 
 BLAST+:
 
-`sudo apt-get update
-sudo apt-get install ncbi-blast+-legacy`
+`sudo apt-get update`
+`sudo apt-get install ncbi-blast+-legacy`
 
 seqtk:
 
