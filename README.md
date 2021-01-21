@@ -20,6 +20,7 @@ porechop:
 seqkit:
 
 https://github.com/shenwei356/seqkit/releases
+`sudo cp seqkit /usr/local/bin/`
 
 Python dependencies:
 
