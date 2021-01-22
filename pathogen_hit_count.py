@@ -4,6 +4,7 @@ df = pd.read_csv("additional_files/query_pathogen_final.csv", sep = "\t", names 
 #print(df)
 
 df['subject'] = df['subject'].apply(lambda x: ' '.join(x.split('_')[:2]))
+df = df.drop_duplicates(subset=['query', 'subject'])
 total = df['subject'].value_counts()
 total.to_csv('additional_files/pathogen_final_result.csv')
 #print(total)
