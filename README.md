@@ -7,6 +7,7 @@ Prerequisites:
 BLAST+:
 
 `sudo apt-get update`
+
 `sudo apt-get install ncbi-blast+-legacy`
 
 seqtk:
@@ -39,4 +40,4 @@ Run the following command:
 `bash automate.sh`
 
 # Results
-![Screenshot](test.PNG)
+![Screenshot](screenshot.png)
