@@ -39,5 +39,7 @@ Run the following command:
 
 `bash automate.sh`
 
+Or use the gui.py
+
 # Results
 ![Screenshot](screenshot.png)
